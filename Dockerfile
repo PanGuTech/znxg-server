@@ -204,6 +204,7 @@ RUN echo @testing http://nl.alpinelinux.org/alpine/edge/testing >> /etc/apk/repo
     mkdir -p /etc/nginx/conf.d && \
     mkdir -p /var/www/app && \
     mkdir -p /run/nginx && \
+    mkdir -p /data/share/data && \
     mkdir -p /var/log/supervisor && \
     pip install -U pip && \
     pip install -U certbot && \
